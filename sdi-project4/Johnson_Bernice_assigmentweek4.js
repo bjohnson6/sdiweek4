@@ -35,6 +35,22 @@ the second: "a,b,c" + "," + "/" → "a/b/c".
 
 //Number
 //#8 Find the number of hours or days difference between two dates.
+//// the Date objects
+var start = new Date();
+// the event you'd like to time goes here:
+doSomethingForALongTime();
+var end = new Date();
+var elapsed = end.getTime() - start.getTime(); // time in milliseconds
+view plainprint?
+// if you want to test a function and get back its return  
+function printElapsedTime (fTest) {  
+    var nStartTime = Date.now(), vReturn = fTest(), nEndTime = Date.now();  
+    alert("Elapsed time: " + String(nEndTime - nStartTime) + " milliseconds");  
+    return vReturn;  
+}  
+  
+yourFunctionReturn = printElapsedTime(yourFunction);  
+
 
 //Number
 //#9 Given a string version of a number such as "42", return the value as an actual Number, 
