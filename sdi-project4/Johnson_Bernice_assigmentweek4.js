@@ -6,9 +6,16 @@ alert("assignment 4!");
 
 //String 
 //#1 Does a string follow a 123-456-7890 pattern like a phone number?
-   function validatePhoneNumber(elementValue){  
-var phoneNumberPattern = /^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/;  
-return phoneNumberPattern.test(elementValue);  
+   function validPhoneNumber("760-219-3874");{  
+   var phoneNumber = 760-219-3874;
+   var phoneNumberPattern = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+   if(pattern.test(phoneNumber)) {
+     var validPhoneNumber= phoneNumber.replace(pattern, "($1) $2-$3");
+     console.log("valid phone number");
+     }else{
+      return console.log("Invalid phone number"); 
+     
+   }
 }  
 
 
