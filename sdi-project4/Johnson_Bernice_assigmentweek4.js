@@ -6,6 +6,10 @@ alert("assignment 4!");
 
 //String 
 //#1 Does a string follow a 123-456-7890 pattern like a phone number?
+   function validatePhoneNumber(elementValue){  
+var phoneNumberPattern = /^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/;  
+return phoneNumberPattern.test(elementValue);  
+}  
 
 
 //String
