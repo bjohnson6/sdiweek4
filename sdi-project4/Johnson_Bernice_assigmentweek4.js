@@ -6,8 +6,8 @@ alert("assignment 4!");
 
 //String 
 //#1 Does a string follow a 123-456-7890 pattern like a phone number?
-   function validPhoneNumber("760-219-3874");{  
-   var phoneNumber = 760-219-3874;
+   function validPhoneNumber("760-219-3874") {  //my number
+   var phoneNumber = 760-219-3874;              //my number
    var phoneNumberPattern = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
    if(pattern.test(phoneNumber)) {
      var validPhoneNumber= phoneNumber.replace(pattern, "($1) $2-$3");
@@ -21,7 +21,12 @@ alert("assignment 4!");
 
 //String
 //#2 Does a string follow an aaa@bbb.ccc pattern like an email address?
-
+    function validateEmail(email) { 
+    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\
+    ".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA
+    -Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email);
+} 
 
 //String
 //#3 Is the string a URL? (Does it start with http: or https:?)
