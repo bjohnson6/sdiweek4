@@ -40,20 +40,14 @@ the second: "a,b,c" + "," + "/" → "a/b/c".
 //Number
 //#8 Find the number of hours or days difference between two dates.
 //// the Date objects
-var start = new Date();
-// the event you'd like to time goes here:
-doSomethingForALongTime();
-var end = new Date();
-var elapsed = end.getTime() - start.getTime(); // time in milliseconds
-view plainprint?
-// if you want to test a function and get back its return  
-function printElapsedTime (fTest) {  
-    var nStartTime = Date.now(), vReturn = fTest(), nEndTime = Date.now();  
-    alert("Elapsed time: " + String(nEndTime - nStartTime) + " milliseconds");  
-    return vReturn;  
-}  
-  
-yourFunctionReturn = printElapsedTime(yourFunction);  
+//Set the two dates
+function getDays(2011, 10, 06) {
+    var  myBirthday = testDate;
+    today = new Date(2012, 04, 25);
+    var one_day = 1000 * 60 * 60 * 24;
+    console.log(Math.ceil((today.getTime() - myBirthday.getTime()) / (one_day)) +
+    " days since my Birthday " + testDate)
+
 
 
 //Number
