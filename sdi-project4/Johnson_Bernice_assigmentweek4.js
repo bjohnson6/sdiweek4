@@ -91,7 +91,12 @@ var "42"
 "42"*1= 42  //returns 42
 var intValue = parseInt(string[, radix]); //Something to due with returning the value as an actual 
                                             number.
-
+                                            //saw this in my research.
+  var stringVersionOfNumber=function(string) {
+  var theNumber= Number(string);
+  return theNumber;
+  
+};
 
 
 //Array
