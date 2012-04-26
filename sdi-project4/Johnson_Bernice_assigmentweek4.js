@@ -66,7 +66,11 @@ the second: "a,b,c" + "," + "/" → "a/b/c".
 
 //Number
 //#6 Format a number to use a specific number of decimal places, as for money: 2.1 → 2.10
-
+     var decimalPlace=function(number) {
+     var roundedNum=number.toFixed(2);
+       return roundedNum;
+   };
+   
 //Number
 //#7 Fuzzy-match a number: is the number above or below a number within a certain percent?
 
