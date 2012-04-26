@@ -27,6 +27,17 @@ alert("assignment 4!");
     -Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(email);
 } 
+//Second email address example
+  function validateEmail(emailAddressCheck) {
+  var emailAdress= emailAddressCheck
+  var emailPattern= /^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]{2,4}$/
+    if(emailPattern.test(emailAddress)) {
+      console.log("This is a valid email address");
+    }else{
+      console.log("Not a valid email address, sorry");
+ }
+}
+
 
 //String
 //#3 Is the string a URL? (Does it start with http: or https:?)
