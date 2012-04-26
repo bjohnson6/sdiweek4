@@ -45,6 +45,16 @@ alert("assignment 4!");
 
 //String
 //#4 Title-case a string (split into words, then uppercase the first letter of each word)
+     var makeTitleCase = function () {
+     var titlecase = "";
+            s=string.split(" ");
+            l=s.length;
+              for(var i=0; i<l; i++) {
+              titlecase = s[i].substring(0,1).toUppercase()+s[i].substring(l,s[i].length)+" "
+              };
+              return titleCase;
+     
+    };
 
 
 //String
