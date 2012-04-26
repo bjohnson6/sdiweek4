@@ -76,8 +76,12 @@ function getDays(2011, 10, 06) { //my Birthday
 //Number
 //#9 Given a string version of a number such as "42", return the value as an actual Number, 
 such as 42.
+var "42"
 "42"-0= 42 //returns 42
 "42"*1= 42  //returns 42
+var intValue = parseInt(string[, radix]); //Something to due with returning the value as an actual 
+                                            number.
+
 
 
 //Array
