@@ -64,7 +64,7 @@ the second: "a,b,c" + "," + "/" → "a/b/c".
 //#8 Find the number of hours or days difference between two dates.
 //// the Date objects
 //Set the two dates
-function getDays(2011, 10, 06) {
+function getDays(2011, 10, 06) { //my Birthday
     var  myBirthday = testDate;
     today = new Date(2012, 04, 25);
     var one_day = 1000 * 60 * 60 * 24;
@@ -76,6 +76,9 @@ function getDays(2011, 10, 06) {
 //Number
 //#9 Given a string version of a number such as "42", return the value as an actual Number, 
 such as 42.
+"42"-0= 42 //returns 42
+"42"*1= 42  //returns 42
+
 
 //Array
 //#10 Find the smallest value in an array that is greater than a given number
